@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "orbitalarsenal",
+  "version": "${version}",
+  "name": "Orbital Arsenal",
+  "description": "OrbitalCannon + DogOrbital merged: orbital strike / nuke commands and one-use rods, the Dog Orbital rod (permanent attack wolves) and the TNT-minecart damage buff. Server-side only: vanilla clients can join.",
+  "authors": ["you"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": { "main": ["dev.orbitalarsenal.OrbitalArsenal"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
